@@ -34,19 +34,21 @@ mit `tar -xvjf *datei* -c *ordner*`.
 `mkdir build && cd build`
 
 6. **Konfigurieren Sie das Projekt mit CMake:**
+
 `cmake -DCMAKE_PREFIX_PATH=/*Pfad der CopperSpice Bibliotheken*/..`
+
 z.B. `cmake -DCMAKE_PREFIX_PATH=/home/user/cs_demo/copperspice_lib/lib/cmake/CopperSpice/..`
 
-7. **Kompilieren Sie das Projekt:**
+8. **Kompilieren Sie das Projekt:**
 `cmake --build .`
 
-8. **Deploy Ordner erstellen**
+9. **Deploy Ordner erstellen**
 `cmake --install . --prefix=deploy`
 
-9. **In deploy wechseln**
+10. **In deploy wechseln**
 `cd deploy`
 
-10. **Führen Sie das Programm aus:**
+11. **Führen Sie das Programm aus:**
 `./calculator`
 
 ## Verwendung
