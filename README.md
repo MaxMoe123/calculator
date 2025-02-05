@@ -103,7 +103,9 @@ with `tar -xvjf *file* -c *folder*`.
 `mkdir build && cd build`
 
 6. **Configure the project with CMake:**
+
 `cmake -DCMAKE_PREFIX_PATH=/*Path of CopperSpice libraries*/..`
+
 e.g. `cmake -DCMAKE_PREFIX_PATH=/home/user/cs_demo/copperspice_lib/lib/cmake/CopperSpice/..`
 
 7. **Compile the project:**
